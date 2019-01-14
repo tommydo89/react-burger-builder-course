@@ -1,17 +1,15 @@
-/*MOBILE STYLING*/
 .NavigationItems {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-	align-items: center;
-	height: 100%;
-	flex-flow: column; /*stacks the elements vertically*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
 }
 
-/*DESKTOP STYLING*/
 @media (min-width: 500px) {
-	.NavigationItems {
-		flex-flow: row; /*stacks the elements horizontally*/
-	}
+    .NavigationItems {
+        flex-flow: row;
+    }
 }
